@@ -1,0 +1,94 @@
+.body{
+    font-family: Arial,  sans-serif;
+margin: 0;
+padding: 0;
+
+}
+
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 1rem 2rem;
+    align-items: center;
+    box-shadow:0,2px ,4px 
+    rgba(0,0,0,0.1);
+}
+.navlink{
+    display: flex;
+    gap: 1.5rem;
+     list-style: none;
+}
+.navlink a{
+    text-decoration:none;
+   
+    padding: 0;
+    color: #333;
+
+}
+.navicon{
+    display: flex;
+    height: 20px;
+    gap: 0.5rem;
+}
+
+.hero{
+display:flex;
+ padding:30rem;
+ align-items:flex-end;
+ justify-content: space-between;
+ background-image:url(pet.png);
+background-repeat:  no-repeat;
+
+
+
+}
+
+.content{
+    position: absolute;
+    left: 70%;
+bottom: 50%;
+
+}
+
+.content h1 {
+    font-size: 3rem ;
+    color:rgb(231, 101, 53);
+    text-shadow: 
+    -1px -1px 0 black,
+    -1px -1px 0 black,
+    -1px 1px 0 black;
+
+
+}
+.content button
+{
+
+color:black;
+background: rgb(230, 84, 32);
+border-radius: 10px;
+border: none;
+text-decoration: none;
+}
+.content button a{
+
+text-decoration: none;
+color: black
+
+}
+.categories{
+ display: flex;
+justify-content:space-between;
+
+}
+.category img{
+
+height:150px;
+width: 150px;
+
+ border-radius: 80px;
+
+}
